@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpExamples", "CSharpExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutandRefKeywords", "OutandRefKeywords\OutandRefKeywords.csproj", "{DDF3D477-8F02-4218-8004-05D1695AA5B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{9457E5D7-F759-4C42-9B05-5DC8F38B8BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDF3D477-8F02-4218-8004-05D1695AA5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF3D477-8F02-4218-8004-05D1695AA5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF3D477-8F02-4218-8004-05D1695AA5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9457E5D7-F759-4C42-9B05-5DC8F38B8BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9457E5D7-F759-4C42-9B05-5DC8F38B8BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9457E5D7-F759-4C42-9B05-5DC8F38B8BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9457E5D7-F759-4C42-9B05-5DC8F38B8BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
