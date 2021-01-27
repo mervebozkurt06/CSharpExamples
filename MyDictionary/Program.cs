@@ -6,14 +6,16 @@ namespace MyDictionary
     {
         static void Main(string[] args)
         {
-            MyDic<string> cities = new MyDic<string>();
-            cities.Add("Boston");
+            MyDictionary<string,string> CountryAndCity = new MyDictionary<string,string>();
+            CountryAndCity.Add("Massachusetts", "Boston");
+            CountryAndCity.Add("Ohio", "Cincinnati");
+            CountryAndCity.Add("Texas", "Houston");
 
-            Console.WriteLine(cities.Length);
-
-            cities.Add("New York");
-
-            Console.WriteLine(cities.Length);
+            Console.WriteLine("All records..");
+            Console.WriteLine("****************");
+            CountryAndCity.PrintAll();
+            Console.WriteLine("****************");
+            Console.WriteLine("number of records="+CountryAndCity.Count);
 
             
         }
